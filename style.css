@@ -13,6 +13,8 @@ header {
   flex-direction: column;
 }
 
+/* Top header */
+
 .top-header,
 .bottom-header {
   display: flex;
@@ -119,4 +121,89 @@ main {
   font-style: italic;
   padding-top: 6px;
   padding-left: 6.5px;
+}
+
+/* Testamonial Section */
+
+.testamonial {
+  display: flex;
+  background-color: #e5e7eb;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotebox {
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+  width: 50%;
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 16px;
+}
+
+.famous {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Call to action section */
+
+.action-box {
+  display: flex;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  gap: 0;
+}
+
+.action-box img {
+  height: 170px;
+}
+
+.call-to_action {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background-color: #3882f6;
+  padding: 16px 80px;
+  margin: 0 80px 0 40px;
+  border-radius: 4px;
+  height: 33.3333%;
+}
+
+.action-text {
+  width: 320px;
+  padding-top: 8px;
+  color: #f9faf8;
+  font-size: 13px;
+}
+
+.action-box h2 {
+  font-size: 20px;
+}
+
+.call-to_action button {
+  border: solid #fff 3px;
+  border-radius: 4px;
+  padding: 4px 24px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  height: 90px;
 }
