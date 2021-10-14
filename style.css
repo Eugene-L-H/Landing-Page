@@ -73,7 +73,7 @@ header {
 }
 
 .sign-up button {
-  width: fit-content;
+  width: 82px;
   padding: 4px 16px;
   border-radius: 5px;
   background-color: #3882f6;
